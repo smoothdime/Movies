@@ -2,12 +2,26 @@
 <html lang="en">
 <head>
     <style>
-           .logo-movie {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 25px;}
+           .logo-movie, .header {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 25px;}
+           .header{
+               color: yellow;
+           }
            .homelink{
             color: yellow;
         }
         .homelink:hover {
             text-decoration: chocolate;
+        }
+        .warning{
+            color: red;
+            font-family: fantasy;
+            padding-left: 100px;
+            font-size: 50px;
+        }
+        .text1{
+            color: red;
+            font-family: monospace;
+            border-radius: 20px;
         }
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -24,7 +38,22 @@
             <a href="homepage.html" class="homelink"><span class="logo-movie">SKYNET MOVIES</span></a>
             
         </nav>
-        <iframe width="560" height="315"
+        <div class="header">
+            Source
+        </div>
+        <div class="text">
+            <h4>The following Movie is redirected to <a href="https://putlockers.li/" class="">Putlockers</a></h4>
+        </div>
+        <div class="warning">
+            warning
+
+
+        </div>
+        <div class="text1">
+            <h5>If you touch anywhere in the frame below other than the continue button you wil 
+            be redirected to other sites that download malware to the device <br> For Safety Purpose cancel the tab imedietly</h5>
+        </div>
+        <iframe width="560" height="650"
         src="https://putlockers.li/movie/the-fast-and-the-furious-2001_YTFZOXBJZklpVTQ9/watch.html"
          title="YouTube video player" 
          frameborder="100"
