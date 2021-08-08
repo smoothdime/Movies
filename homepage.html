@@ -15,10 +15,23 @@
         .f9{ width: 310px; padding-top: 20px;}
 
         .f9:hover{
-            background-color: yellow;
+            background-color: rgb(238, 255, 0);
+            cursor: pointer;
+        }
+        .homelink{
+            color: yellow;
+        }
+        .homelink:hover {
+            text-decoration: chocolate;
+        }
+        .f9-head:hover{
+            color: rgb(255, 251, 0);
         }
         .f9-head, .aqua-head{color: rgb(0, 0, 0); padding-left: 20px;}
         button#more-f9{background-color: rgb(0, 193, 252);}
+        #more-f9:hover{
+            color: rgb(186, 238, 0);
+        }
         .hidden{display: none;}
         .aqua{ width: 310px;}
         #trailer{}
@@ -37,13 +50,13 @@
 </head>
 <body style="background-color: rgb(84, 168, 216);">
     <nav class="navbar navbar-expand-lg bg-info">
-        <span class="logo-movie">SKYNET MOVIES</span>
+        <a href="homepage.html" class="homelink"><span class="logo-movie">SKYNET MOVIES</span></a>
         
     </nav>
     <!-- Fast and furious -->
 <div class="col-lg-4">
-    <img  class="f9" src="https://raw.githubusercontent.com/smoothdime/Movies/main/images/f9.jpg?token=AVD4WLLVBTC2PKLZWXHRPQDBB25HG" alt="wsrer">
-    <h2 class="f9-head">Fast and Furious 9</h2>
+    <a href="f9-movie.html" class="movie"> <img  class="f9" src="https://raw.githubusercontent.com/smoothdime/Movies/main/images/f9.jpg?token=AVD4WLLVBTC2PKLZWXHRPQDBB25HG" alt="wsrer"></a>
+    <a href="f9-movie.html" class="movie-text"><h2 class="f9-head">Fast and Furious 9</h2></a>
     <h6 class="f9-text">
         Dom Toretto is living the quiet life off the grid with Letty and his son, but they know that danger always lurks just over the peaceful horizon.
         <input type="submit"id="more-f9" value="More"> <span class="hidden"> This time, that threat forces Dom to confront the sins of his past to save those he loves most. His crew soon comes together to stop a world-shattering plot by the most skilled assassin and high-performance driver they've ever encountered -- Dom's forsaken brother.</span><br>
